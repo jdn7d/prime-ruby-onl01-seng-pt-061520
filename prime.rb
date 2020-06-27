@@ -1,7 +1,7 @@
 def prime?(num)
   prime_array = []
 
-(1...x).each do |number|
+(1...num).each do |number|
 
   return false if num % number == 0
 
