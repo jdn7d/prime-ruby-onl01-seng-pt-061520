@@ -9,4 +9,3 @@ def prime?(num)
   end
   false
 end
-
