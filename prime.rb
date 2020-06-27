@@ -1,12 +1,10 @@
 def prime?(num)
   prime_array = []
 
-(1...num).each do |number|
+  (1...num).each do |number|
 
   return true if num % number == 0
-else
-  return false
-
+    else
+      return false
   end
-end
 end
