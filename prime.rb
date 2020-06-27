@@ -8,7 +8,8 @@ def prime?(num)
   if (1..num).select { |number| num % number == 0 }
     prime_array.push(num)
   end
+  false
 end
 
-prime_array
+
 end
